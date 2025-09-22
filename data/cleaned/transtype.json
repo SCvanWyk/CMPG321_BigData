@@ -1,0 +1,22 @@
+[
+    {
+        "transtype_id": 1,
+        "transtype_desc": "TAX INVOICE"
+    },
+    {
+        "transtype_id": 2,
+        "transtype_desc": "CREDIT NOTE"
+    },
+    {
+        "transtype_id": 3,
+        "transtype_desc": "CONSIGNMENT NOTE"
+    },
+    {
+        "transtype_id": 4,
+        "transtype_desc": "CONSIGNMENT CREDIT NOTE"
+    },
+    {
+        "transtype_id": 5,
+        "transtype_desc": "CONSIGNMENT TAX INVOICE"
+    }
+]
