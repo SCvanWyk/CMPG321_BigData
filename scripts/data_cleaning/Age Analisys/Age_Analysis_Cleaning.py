@@ -24,6 +24,10 @@ df = df.drop_duplicates()
 amount_columns = ["TOTAL_DUE"] + aging_columns
 df = df[(df[amount_columns] >= 0).all(axis=1)]
 
+#Keep only the final record per customer (latest FIN_PERIOD) Sugoi~
+df = df.sort_values(by=["CUSTOMER_NUMBER", "FIN_PERIOD"]).drop_duplicates(subset=["CUSTOMER_NUMBER"], keep="last")
+
+
 df.to_excel("Age_Analysis_Cleaned.xlsx", index=False)
 
 print("Data cleaning complete. Cleaned file saved as Age_Analysis_Cleaned.xlsx")
