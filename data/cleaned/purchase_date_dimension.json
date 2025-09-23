@@ -1,0 +1,121 @@
+[
+    {
+        "date_id": 1,
+        "day": 3,
+        "month": 1,
+        "quarter": 1,
+        "year": 2018
+    },
+    {
+        "date_id": 2,
+        "day": 8,
+        "month": 3,
+        "quarter": 1,
+        "year": 2018
+    },
+    {
+        "date_id": 3,
+        "day": 3,
+        "month": 4,
+        "quarter": 2,
+        "year": 2018
+    },
+    {
+        "date_id": 4,
+        "day": 4,
+        "month": 5,
+        "quarter": 2,
+        "year": 2018
+    },
+    {
+        "date_id": 5,
+        "day": 8,
+        "month": 5,
+        "quarter": 2,
+        "year": 2018
+    },
+    {
+        "date_id": 6,
+        "day": 14,
+        "month": 5,
+        "quarter": 2,
+        "year": 2018
+    },
+    {
+        "date_id": 7,
+        "day": 2,
+        "month": 7,
+        "quarter": 3,
+        "year": 2018
+    },
+    {
+        "date_id": 8,
+        "day": 12,
+        "month": 7,
+        "quarter": 3,
+        "year": 2018
+    },
+    {
+        "date_id": 9,
+        "day": 31,
+        "month": 7,
+        "quarter": 3,
+        "year": 2018
+    },
+    {
+        "date_id": 10,
+        "day": 1,
+        "month": 8,
+        "quarter": 3,
+        "year": 2018
+    },
+    {
+        "date_id": 11,
+        "day": 20,
+        "month": 8,
+        "quarter": 3,
+        "year": 2018
+    },
+    {
+        "date_id": 12,
+        "day": 2,
+        "month": 11,
+        "quarter": 4,
+        "year": 2018
+    },
+    {
+        "date_id": 13,
+        "day": 2,
+        "month": 12,
+        "quarter": 4,
+        "year": 2018
+    },
+    {
+        "date_id": 14,
+        "day": 27,
+        "month": 2,
+        "quarter": 1,
+        "year": 2019
+    },
+    {
+        "date_id": 15,
+        "day": 25,
+        "month": 4,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 16,
+        "day": 15,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 17,
+        "day": 1,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    }
+]

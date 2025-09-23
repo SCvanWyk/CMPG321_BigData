@@ -1,0 +1,1549 @@
+[
+    {
+        "date_id": 1,
+        "day": 6,
+        "month": 12,
+        "quarter": 4,
+        "year": 2018
+    },
+    {
+        "date_id": 2,
+        "day": 7,
+        "month": 12,
+        "quarter": 4,
+        "year": 2018
+    },
+    {
+        "date_id": 3,
+        "day": 10,
+        "month": 12,
+        "quarter": 4,
+        "year": 2018
+    },
+    {
+        "date_id": 4,
+        "day": 2,
+        "month": 5,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 5,
+        "day": 6,
+        "month": 5,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 6,
+        "day": 9,
+        "month": 5,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 7,
+        "day": 13,
+        "month": 5,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 8,
+        "day": 14,
+        "month": 5,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 9,
+        "day": 15,
+        "month": 5,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 10,
+        "day": 16,
+        "month": 5,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 11,
+        "day": 17,
+        "month": 5,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 12,
+        "day": 18,
+        "month": 5,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 13,
+        "day": 20,
+        "month": 5,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 14,
+        "day": 21,
+        "month": 5,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 15,
+        "day": 22,
+        "month": 5,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 16,
+        "day": 23,
+        "month": 5,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 17,
+        "day": 24,
+        "month": 5,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 18,
+        "day": 25,
+        "month": 5,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 19,
+        "day": 27,
+        "month": 5,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 20,
+        "day": 28,
+        "month": 5,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 21,
+        "day": 29,
+        "month": 5,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 22,
+        "day": 30,
+        "month": 5,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 23,
+        "day": 31,
+        "month": 5,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 24,
+        "day": 1,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 25,
+        "day": 3,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 26,
+        "day": 4,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 27,
+        "day": 5,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 28,
+        "day": 6,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 29,
+        "day": 7,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 30,
+        "day": 8,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 31,
+        "day": 10,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 32,
+        "day": 11,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 33,
+        "day": 12,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 34,
+        "day": 13,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 35,
+        "day": 14,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 36,
+        "day": 15,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 37,
+        "day": 18,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 38,
+        "day": 19,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 39,
+        "day": 20,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 40,
+        "day": 21,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 41,
+        "day": 22,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 42,
+        "day": 24,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 43,
+        "day": 25,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 44,
+        "day": 26,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 45,
+        "day": 27,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 46,
+        "day": 28,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 47,
+        "day": 29,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 48,
+        "day": 30,
+        "month": 6,
+        "quarter": 2,
+        "year": 2019
+    },
+    {
+        "date_id": 49,
+        "day": 1,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 50,
+        "day": 2,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 51,
+        "day": 3,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 52,
+        "day": 4,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 53,
+        "day": 5,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 54,
+        "day": 6,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 55,
+        "day": 8,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 56,
+        "day": 9,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 57,
+        "day": 10,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 58,
+        "day": 11,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 59,
+        "day": 12,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 60,
+        "day": 13,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 61,
+        "day": 15,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 62,
+        "day": 16,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 63,
+        "day": 17,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 64,
+        "day": 18,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 65,
+        "day": 19,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 66,
+        "day": 20,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 67,
+        "day": 22,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 68,
+        "day": 23,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 69,
+        "day": 24,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 70,
+        "day": 25,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 71,
+        "day": 26,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 72,
+        "day": 27,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 73,
+        "day": 29,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 74,
+        "day": 30,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 75,
+        "day": 31,
+        "month": 7,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 76,
+        "day": 1,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 77,
+        "day": 2,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 78,
+        "day": 3,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 79,
+        "day": 5,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 80,
+        "day": 6,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 81,
+        "day": 7,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 82,
+        "day": 8,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 83,
+        "day": 10,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 84,
+        "day": 12,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 85,
+        "day": 13,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 86,
+        "day": 14,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 87,
+        "day": 15,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 88,
+        "day": 16,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 89,
+        "day": 19,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 90,
+        "day": 21,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 91,
+        "day": 22,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 92,
+        "day": 23,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 93,
+        "day": 24,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 94,
+        "day": 26,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 95,
+        "day": 27,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 96,
+        "day": 28,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 97,
+        "day": 29,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 98,
+        "day": 30,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 99,
+        "day": 31,
+        "month": 8,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 100,
+        "day": 2,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 101,
+        "day": 3,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 102,
+        "day": 4,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 103,
+        "day": 5,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 104,
+        "day": 6,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 105,
+        "day": 7,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 106,
+        "day": 9,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 107,
+        "day": 10,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 108,
+        "day": 11,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 109,
+        "day": 12,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 110,
+        "day": 13,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 111,
+        "day": 14,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 112,
+        "day": 16,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 113,
+        "day": 17,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 114,
+        "day": 18,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 115,
+        "day": 19,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 116,
+        "day": 20,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 117,
+        "day": 21,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 118,
+        "day": 23,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 119,
+        "day": 25,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 120,
+        "day": 26,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 121,
+        "day": 27,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 122,
+        "day": 28,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 123,
+        "day": 30,
+        "month": 9,
+        "quarter": 3,
+        "year": 2019
+    },
+    {
+        "date_id": 124,
+        "day": 1,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 125,
+        "day": 2,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 126,
+        "day": 3,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 127,
+        "day": 4,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 128,
+        "day": 7,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 129,
+        "day": 8,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 130,
+        "day": 9,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 131,
+        "day": 10,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 132,
+        "day": 11,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 133,
+        "day": 14,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 134,
+        "day": 15,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 135,
+        "day": 16,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 136,
+        "day": 17,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 137,
+        "day": 18,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 138,
+        "day": 19,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 139,
+        "day": 21,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 140,
+        "day": 22,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 141,
+        "day": 23,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 142,
+        "day": 24,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 143,
+        "day": 25,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 144,
+        "day": 26,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 145,
+        "day": 28,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 146,
+        "day": 29,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 147,
+        "day": 30,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 148,
+        "day": 31,
+        "month": 10,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 149,
+        "day": 1,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 150,
+        "day": 2,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 151,
+        "day": 4,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 152,
+        "day": 5,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 153,
+        "day": 6,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 154,
+        "day": 7,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 155,
+        "day": 8,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 156,
+        "day": 9,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 157,
+        "day": 11,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 158,
+        "day": 12,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 159,
+        "day": 13,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 160,
+        "day": 14,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 161,
+        "day": 15,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 162,
+        "day": 16,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 163,
+        "day": 18,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 164,
+        "day": 19,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 165,
+        "day": 20,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 166,
+        "day": 21,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 167,
+        "day": 22,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 168,
+        "day": 25,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 169,
+        "day": 26,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 170,
+        "day": 27,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 171,
+        "day": 28,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 172,
+        "day": 29,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 173,
+        "day": 30,
+        "month": 11,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 174,
+        "day": 2,
+        "month": 12,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 175,
+        "day": 3,
+        "month": 12,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 176,
+        "day": 4,
+        "month": 12,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 177,
+        "day": 5,
+        "month": 12,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 178,
+        "day": 6,
+        "month": 12,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 179,
+        "day": 7,
+        "month": 12,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 180,
+        "day": 9,
+        "month": 12,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 181,
+        "day": 10,
+        "month": 12,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 182,
+        "day": 11,
+        "month": 12,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 183,
+        "day": 12,
+        "month": 12,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 184,
+        "day": 13,
+        "month": 12,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 185,
+        "day": 14,
+        "month": 12,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 186,
+        "day": 17,
+        "month": 12,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 187,
+        "day": 18,
+        "month": 12,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 188,
+        "day": 19,
+        "month": 12,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 189,
+        "day": 20,
+        "month": 12,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 190,
+        "day": 21,
+        "month": 12,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 191,
+        "day": 23,
+        "month": 12,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 192,
+        "day": 24,
+        "month": 12,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 193,
+        "day": 27,
+        "month": 12,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 194,
+        "day": 30,
+        "month": 12,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 195,
+        "day": 31,
+        "month": 12,
+        "quarter": 4,
+        "year": 2019
+    },
+    {
+        "date_id": 196,
+        "day": 2,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 197,
+        "day": 3,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 198,
+        "day": 4,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 199,
+        "day": 6,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 200,
+        "day": 7,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 201,
+        "day": 8,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 202,
+        "day": 9,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 203,
+        "day": 10,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 204,
+        "day": 11,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 205,
+        "day": 13,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 206,
+        "day": 14,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 207,
+        "day": 15,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 208,
+        "day": 16,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 209,
+        "day": 17,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 210,
+        "day": 18,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 211,
+        "day": 20,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 212,
+        "day": 21,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 213,
+        "day": 22,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 214,
+        "day": 23,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 215,
+        "day": 24,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 216,
+        "day": 25,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 217,
+        "day": 27,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 218,
+        "day": 28,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 219,
+        "day": 29,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 220,
+        "day": 30,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    },
+    {
+        "date_id": 221,
+        "day": 31,
+        "month": 1,
+        "quarter": 1,
+        "year": 2020
+    }
+]
