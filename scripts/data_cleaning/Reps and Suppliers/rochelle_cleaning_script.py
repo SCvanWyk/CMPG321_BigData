@@ -104,6 +104,17 @@ print("Number of duplicate rows in Suppliers:", suppliers.duplicated().sum())
 reps = reps.drop_duplicates()
 suppliers = suppliers.drop_duplicates()
 
+# Define junk patterns
+invalid_codes = ["0", "99999", "ZZZ", "XX", "REP", "SALE", "STOCK"]  # extend as needed
+invalid_desc_keywords = ["Do Not Use", "Unknown", "Problem", "Bad Debt", "Closed"]
+
+# Drop rows with invalid rep_code
+reps = reps[~reps['rep_code'].isin(invalid_codes)]
+
+# Drop rows where description contains junk words
+pattern = '|'.join(invalid_desc_keywords)
+reps = reps[~reps['rep_desc'].str.contains(pattern, case=False, na=False)]
+
 print("\nAfter dropping duplicates:")
 print("Representatives:", reps.shape[0], "rows")
 print("Suppliers:", suppliers.shape[0], "rows")
