@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import json
 import os
 
@@ -46,7 +47,7 @@ def clean_customer_data(
         df_merged.rename(columns=column_rename_map, inplace=True)
 
         # ---------------------
-        # Keep only needed columns (make a copy to avoid SettingWithCopyWarning)
+        # Keep only needed columns
         # ---------------------
         final_columns = list(column_rename_map.values())
         df_final = df_merged[final_columns].copy()
@@ -73,16 +74,24 @@ def clean_customer_data(
         df_final = df_final[(df_final["discount"] >= 0) & (df_final["credit_limit"] >= 0)]
 
         # 5. Strip whitespace & normalize text fields
-        text_fields = ["region", "category", "parameter", "normal_payterms"]
+        text_fields = ["region", "category", "normal_payterms"]
         for col in text_fields:
             if col in df_final.columns:
                 df_final[col] = df_final[col].astype(str).str.strip().str.title()
 
+        # 6. Handle `parameter` field: make invalid/missing values a string "None"
+        df_final["parameter"] = df_final["parameter"].apply(
+            lambda x: str(x).strip() if pd.notna(x) and str(x).strip() != "" else "None"
+        )
+
         # ---------------------
-        # Export cleaned JSON
+        # Convert to JSON records
         # ---------------------
         json_records = df_final.to_dict(orient="records")
 
+        # ---------------------
+        # Export cleaned JSON
+        # ---------------------
         with open(output_json_file, "w", encoding="utf-8") as f:
             json.dump(json_records, f, indent=4, ensure_ascii=False)
 
