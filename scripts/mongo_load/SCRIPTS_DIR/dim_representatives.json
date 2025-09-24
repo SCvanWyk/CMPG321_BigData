@@ -1,0 +1,644 @@
+[
+    {
+        "rep_id": "01",
+        "rep_desc": "Head Office",
+        "comm_method": "Sales",
+        "commision": 0.0
+    },
+    {
+        "rep_id": "010",
+        "rep_desc": "Ba Allison",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "010C",
+        "rep_desc": "Ba Consignment Sales Acc",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01AME",
+        "rep_desc": "01 Credit Card",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01BJ",
+        "rep_desc": "Cat Customer Only -Ex Bj",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01BM",
+        "rep_desc": "Cat Customer Only Ex Bm",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01C",
+        "rep_desc": "Cm",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01CA2",
+        "rep_desc": "Cat Customer  Only- Ex R",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01CAT",
+        "rep_desc": "Cat Customers Only- Ex Rl",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01CHE",
+        "rep_desc": "Ch",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01CRE",
+        "rep_desc": "01 Credit Card",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01DIS",
+        "rep_desc": "Disc.  For Wifes/Friends",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01EDN",
+        "rep_desc": "Em",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01EXP",
+        "rep_desc": "Exports",
+        "comm_method": "Gross Profit",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01JUL",
+        "rep_desc": "Ju",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01LC",
+        "rep_desc": "Ll Consignm",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01LVD",
+        "rep_desc": "Ll",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01N",
+        "rep_desc": "01 N",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01REP",
+        "rep_desc": "Repairs",
+        "comm_method": "Gross Profit",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01S01",
+        "rep_desc": "Sale Head Office",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01S02",
+        "rep_desc": "Sale R",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01S03",
+        "rep_desc": "Sale Bj",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01S04",
+        "rep_desc": "Sale Bm",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01S05",
+        "rep_desc": "Sale Rl",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01S06",
+        "rep_desc": "Sale Da",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01S07",
+        "rep_desc": "La Sale Goods",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01SCG",
+        "rep_desc": "Sale Ch",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01SJM",
+        "rep_desc": "Sale Ju",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01SMC",
+        "rep_desc": "Sale Em",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01STU",
+        "rep_desc": "Head Office'S Customer Dept Store",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01TOP",
+        "rep_desc": "Head Office-Top Ten Dept Stores",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01VP",
+        "rep_desc": "Vp",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "01WHO",
+        "rep_desc": "Wholesalers",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "02",
+        "rep_desc": "R",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "02C",
+        "rep_desc": "R Consignment Sales Acc",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "02CHE",
+        "rep_desc": "R'S Customer - Ch'S Sale",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "02GAR",
+        "rep_desc": "Dr",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "02JUL",
+        "rep_desc": "R'S Customer - Ju'S Sale",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "02MYR",
+        "rep_desc": "R'S Cutomer -Em'S Sale",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "02RO*",
+        "rep_desc": "R  Discount Customer",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "02ROS",
+        "rep_desc": "R'S Customer - Ro'S Sale",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "03",
+        "rep_desc": "Bj",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "03BJ*",
+        "rep_desc": "Bj Discount Customer",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "03C",
+        "rep_desc": "Bj Consignments",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "03CHE",
+        "rep_desc": "Bj'S Customer - Ch'S Sale",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "03JUL",
+        "rep_desc": "Bj'S Customer - Ju'S Sale",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "03MYR",
+        "rep_desc": "Bj'S Customer- Em'S Sale",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "03SGW",
+        "rep_desc": "Bj Exhibition",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "04",
+        "rep_desc": "Bm",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "04C",
+        "rep_desc": "Bm Consignment Sales Acc",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "04CHE",
+        "rep_desc": "Bm'S Customer - Ch'S Sal",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "04GAR",
+        "rep_desc": "Bm Free State + Lesotho",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "04JAS",
+        "rep_desc": "Gr",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "04JUL",
+        "rep_desc": "Bm'S Customer - Ju'S Sale",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "04MA*",
+        "rep_desc": "Bm Discount Customer",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "04MYR",
+        "rep_desc": "Bm'S Customer-Em'S Sale",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "05",
+        "rep_desc": "Rl",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "05C",
+        "rep_desc": "Rl Consignment Sales Acc",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "05CHE",
+        "rep_desc": "Rl'S Customer - Ch Sale",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "05JUL",
+        "rep_desc": "Rl'S Customer - Ju'S Sale",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "05MYR",
+        "rep_desc": "Ho'S Customer-Em'S Sale",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "05RA*",
+        "rep_desc": "Ho Discount Customer",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "05SS",
+        "rep_desc": "Ml",
+        "comm_method": "Sales",
+        "commision": 0.0
+    },
+    {
+        "rep_id": "06",
+        "rep_desc": "Da",
+        "comm_method": "Sales",
+        "commision": 0.0
+    },
+    {
+        "rep_id": "06C",
+        "rep_desc": "Da Consignment",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "06CHE",
+        "rep_desc": "Da Customer Vp'S Sal",
+        "comm_method": "Sales",
+        "commision": 0.0
+    },
+    {
+        "rep_id": "06EDN",
+        "rep_desc": "Da'S Customer - Em'S Sal",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "06JUL",
+        "rep_desc": "Da Customer Ju'S Sale",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "06RO*",
+        "rep_desc": "Da Discount Customer",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "07",
+        "rep_desc": "La",
+        "comm_method": "Sales",
+        "commision": 0.0
+    },
+    {
+        "rep_id": "07C",
+        "rep_desc": "La Consignments Salesacc",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "07CHE",
+        "rep_desc": "La Cust-Vp'S Sale",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "07EDN",
+        "rep_desc": "La Cust-Em Sale",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "07GR",
+        "rep_desc": "07-Group-La",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "07JUL",
+        "rep_desc": "La Custju Sale",
+        "comm_method": "Sales",
+        "commision": 0.0
+    },
+    {
+        "rep_id": "07RO*",
+        "rep_desc": "La Discount Customers",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "10",
+        "rep_desc": "Ba Allison",
+        "comm_method": "Sales",
+        "commision": 0.0
+    },
+    {
+        "rep_id": "10C",
+        "rep_desc": "Ba Consignment Sales Acc",
+        "comm_method": "Sales",
+        "commision": 0.0
+    },
+    {
+        "rep_id": "CAT03",
+        "rep_desc": "Catalogue Customer Only - Bj",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "CAT04",
+        "rep_desc": "Catalogue Customer Only - Bm",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "CAT06",
+        "rep_desc": "Catalogue Customer Only - Ro",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "CAT07",
+        "rep_desc": "Catalogue Customer-Ch",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "CITC",
+        "rep_desc": "C-  Itc",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "CLEGA",
+        "rep_desc": "C Legal",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "CON10",
+        "rep_desc": "Consignment Ba",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "CON2S",
+        "rep_desc": "Consignment De/Stand",
+        "comm_method": "Gross Profit",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "CON3S",
+        "rep_desc": "Consignment Bj/Stand",
+        "comm_method": "Gross Profit",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "CON4S",
+        "rep_desc": "Consignment Bm/Stand",
+        "comm_method": "Gross Profit",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "CON5S",
+        "rep_desc": "Consignment Ho/Stand",
+        "comm_method": "Gross Profit",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "CON6S",
+        "rep_desc": "Consignment Da/Stand",
+        "comm_method": "Gross Profit",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "CON7S",
+        "rep_desc": "Consignment La / Stand",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "CONS",
+        "rep_desc": "Consignments Head Office",
+        "comm_method": "Gross Profit",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "CONS2",
+        "rep_desc": "Consignments De",
+        "comm_method": "Gross Profit",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "CONS3",
+        "rep_desc": "Consignments Bj",
+        "comm_method": "Gross Profit",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "CONS4",
+        "rep_desc": "Consignments Bm",
+        "comm_method": "Gross Profit",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "CONS5",
+        "rep_desc": "Consignments Ho",
+        "comm_method": "Gross Profit",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "CONS6",
+        "rep_desc": "Consignments Da",
+        "comm_method": "Gross Profit",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "CONS7",
+        "rep_desc": "Consignments La",
+        "comm_method": "Sales",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "DISC",
+        "rep_desc": "Discount Specials",
+        "comm_method": "Gross Profit",
+        "commision": 0.5
+    },
+    {
+        "rep_id": "PROMO",
+        "rep_desc": "Promotion Once-Off",
+        "comm_method": "Gross Profit",
+        "commision": 0.0
+    },
+    {
+        "rep_id": "SAMPL",
+        "rep_desc": "Samples",
+        "comm_method": "Gross Profit",
+        "commision": 0.0
+    },
+    {
+        "rep_id": "STAN2",
+        "rep_desc": "Stands- 30 Pc Consignment",
+        "comm_method": "Gross Profit",
+        "commision": 0.0
+    },
+    {
+        "rep_id": "STAN3",
+        "rep_desc": "Stands-Consignment",
+        "comm_method": "Gross Profit",
+        "commision": 0.0
+    },
+    {
+        "rep_id": "STAN4",
+        "rep_desc": "Stands-Consignment",
+        "comm_method": "Gross Profit",
+        "commision": 0.0
+    },
+    {
+        "rep_id": "STAND",
+        "rep_desc": "Stand-60Pc Consignment",
+        "comm_method": "Gross Profit",
+        "commision": 0.0
+    },
+    {
+        "rep_id": "XXC",
+        "rep_desc": "Sh",
+        "comm_method": "Gross Profit",
+        "commision": 0.0
+    },
+    {
+        "rep_id": "ZZZ4",
+        "rep_desc": "Bad Credit",
+        "comm_method": "Sales",
+        "commision": 0.0
+    }
+]

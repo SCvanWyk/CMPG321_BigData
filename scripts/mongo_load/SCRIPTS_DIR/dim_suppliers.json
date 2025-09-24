@@ -1,0 +1,156 @@
+[
+    {
+        "supplier_id": "002",
+        "supplier_desc": "Dr",
+        "exclsv": "Y",
+        "normal_payterms": 0,
+        "credit_limit": 0
+    },
+    {
+        "supplier_id": "003",
+        "supplier_desc": "V.I.P.",
+        "exclsv": "Y",
+        "normal_payterms": 0,
+        "credit_limit": 0
+    },
+    {
+        "supplier_id": "004",
+        "supplier_desc": "Dept Stores Rfc",
+        "exclsv": "Y",
+        "normal_payterms": 0,
+        "credit_limit": 0
+    },
+    {
+        "supplier_id": "005",
+        "supplier_desc": "Dr Dec02",
+        "exclsv": "Y",
+        "normal_payterms": 0,
+        "credit_limit": 0
+    },
+    {
+        "supplier_id": "006",
+        "supplier_desc": "Dr 2002 Purch Order July02",
+        "exclsv": "Y",
+        "normal_payterms": 90,
+        "credit_limit": 0
+    },
+    {
+        "supplier_id": "007",
+        "supplier_desc": "Dr - Sept 02",
+        "exclsv": "Y",
+        "normal_payterms": 90,
+        "credit_limit": 0
+    },
+    {
+        "supplier_id": "008",
+        "supplier_desc": "Dr Sg Shipment May 2001",
+        "exclsv": "Y",
+        "normal_payterms": 0,
+        "credit_limit": 0
+    },
+    {
+        "supplier_id": "009",
+        "supplier_desc": "Dr June 2002",
+        "exclsv": "Y",
+        "normal_payterms": 0,
+        "credit_limit": 0
+    },
+    {
+        "supplier_id": "010",
+        "supplier_desc": "Dr August 2001 Shipment",
+        "exclsv": "Y",
+        "normal_payterms": 0,
+        "credit_limit": 0
+    },
+    {
+        "supplier_id": "011",
+        "supplier_desc": "Dr - Shipment Nov 2001/2",
+        "exclsv": "Y",
+        "normal_payterms": 0,
+        "credit_limit": 0
+    },
+    {
+        "supplier_id": "012",
+        "supplier_desc": "Dr Jan 02 Air Ship",
+        "exclsv": "Y",
+        "normal_payterms": 0,
+        "credit_limit": 0
+    },
+    {
+        "supplier_id": "014",
+        "supplier_desc": "Dr Feb 02 Seafreight",
+        "exclsv": "Y",
+        "normal_payterms": 0,
+        "credit_limit": 0
+    },
+    {
+        "supplier_id": "015",
+        "supplier_desc": "South China",
+        "exclsv": "Y",
+        "normal_payterms": 0,
+        "credit_limit": 0
+    },
+    {
+        "supplier_id": "999999",
+        "supplier_desc": "Unknown",
+        "exclsv": "N",
+        "normal_payterms": 0,
+        "credit_limit": 0
+    },
+    {
+        "supplier_id": "ADAG01",
+        "supplier_desc": "Advertising Purchases",
+        "exclsv": "Y",
+        "normal_payterms": 0,
+        "credit_limit": 0
+    },
+    {
+        "supplier_id": "DCF001",
+        "supplier_desc": "Dc Forwarding",
+        "exclsv": "Y",
+        "normal_payterms": 0,
+        "credit_limit": 0
+    },
+    {
+        "supplier_id": "GLOB01",
+        "supplier_desc": "Global Internet Access",
+        "exclsv": "Y",
+        "normal_payterms": 0,
+        "credit_limit": 0
+    },
+    {
+        "supplier_id": "LETH01",
+        "supplier_desc": "Leth Trading (Pty) Ltd",
+        "exclsv": "Y",
+        "normal_payterms": 0,
+        "credit_limit": 0
+    },
+    {
+        "supplier_id": "MADE01",
+        "supplier_desc": "Made",
+        "exclsv": "Y",
+        "normal_payterms": 0,
+        "credit_limit": 0
+    },
+    {
+        "supplier_id": "MD01",
+        "supplier_desc": "Mdplastics (Pty) Ltd",
+        "exclsv": "Y",
+        "normal_payterms": 0,
+        "credit_limit": 0
+    },
+    {
+        "supplier_id": "PG001",
+        "supplier_desc": "Pg Manufacturers",
+        "exclsv": "Y",
+        "normal_payterms": 0,
+        "credit_limit": 0
+    },
+    {
+        "supplier_id": "ROY001",
+        "supplier_desc": "Royal Co.",
+        "exclsv": "Y",
+        "normal_payterms": 0,
+        "credit_limit": 0
+    }
+]
