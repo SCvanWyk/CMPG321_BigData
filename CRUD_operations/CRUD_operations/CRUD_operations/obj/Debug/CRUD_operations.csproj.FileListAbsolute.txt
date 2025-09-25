@@ -1,0 +1,12 @@
+C:\Users\katel\OneDrive\Documents\CMPG321\Project\CRUD\source\repos\CRUD_operations\CRUD_operations\CRUD_operations\obj\Debug\CRUD_operations.Home.resources
+C:\Users\katel\OneDrive\Documents\CMPG321\Project\CRUD\source\repos\CRUD_operations\CRUD_operations\CRUD_operations\obj\Debug\CRUD_operations.Properties.Resources.resources
+C:\Users\katel\OneDrive\Documents\CMPG321\Project\CRUD\source\repos\CRUD_operations\CRUD_operations\CRUD_operations\obj\Debug\CRUD_operations.csproj.GenerateResource.cache
+C:\Users\katel\OneDrive\Documents\CMPG321\Project\CRUD\source\repos\CRUD_operations\CRUD_operations\CRUD_operations\obj\Debug\CRUD_operations.csproj.CoreCompileInputs.cache
+C:\Users\katel\OneDrive\Documents\CMPG321\Project\CRUD\source\repos\CRUD_operations\CRUD_operations\CRUD_operations\bin\Debug\CRUD_operations.exe.config
+C:\Users\katel\OneDrive\Documents\CMPG321\Project\CRUD\source\repos\CRUD_operations\CRUD_operations\CRUD_operations\bin\Debug\CRUD_operations.exe
+C:\Users\katel\OneDrive\Documents\CMPG321\Project\CRUD\source\repos\CRUD_operations\CRUD_operations\CRUD_operations\bin\Debug\CRUD_operations.pdb
+C:\Users\katel\OneDrive\Documents\CMPG321\Project\CRUD\source\repos\CRUD_operations\CRUD_operations\CRUD_operations\obj\Debug\CRUD_operations.exe
+C:\Users\katel\OneDrive\Documents\CMPG321\Project\CRUD\source\repos\CRUD_operations\CRUD_operations\CRUD_operations\obj\Debug\CRUD_operations.pdb
+C:\Users\katel\OneDrive\Documents\CMPG321\Project\CRUD\source\repos\CRUD_operations\CRUD_operations\CRUD_operations\obj\Debug\CRUD_operations.payments.resources
+C:\Users\katel\OneDrive\Documents\CMPG321\Project\CRUD\source\repos\CRUD_operations\CRUD_operations\CRUD_operations\obj\Debug\CRUD_operations.Purchases.resources
+C:\Users\katel\OneDrive\Documents\CMPG321\Project\CRUD\source\repos\CRUD_operations\CRUD_operations\CRUD_operations\obj\Debug\CRUD_operations.Form1.resources

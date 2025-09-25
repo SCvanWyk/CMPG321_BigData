@@ -16,5 +16,10 @@ namespace CRUD_operations
         {
             InitializeComponent();
         }
+
+        private void payments_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

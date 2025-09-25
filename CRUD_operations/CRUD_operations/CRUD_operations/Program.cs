@@ -16,7 +16,7 @@ namespace CRUD_operations
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new sales());
+            Application.Run(new Home());
         }
     }
 }
