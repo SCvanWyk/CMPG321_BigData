@@ -1,217 +1,124 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Confluent.Kafka;
-using Newtonsoft.Json;
-
 
 namespace CRUD_operations
 {
     public partial class Purchases : Form
     {
+        private const string BootstrapServers = "localhost:9092"; // Kafka broker
+        private const string TopicName = "purchases";              // Your topic name
+
+        private CancellationTokenSource _cts;
+
         public Purchases()
         {
             InitializeComponent();
         }
 
+        // === Form Events ===
         private void Purchases_Load(object sender, EventArgs e)
         {
-            listBox1.DataSource = purchases;
-            listBox1.DisplayMember = "";
-            LoadPurchases();
+            StartConsumer();
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
+        private void Purchases_FormClosing(object sender, FormClosingEventArgs e)
         {
-
+            StopConsumer();
         }
 
-        private void fin_date_ValueChanged(object sender, EventArgs e)
+        private async Task SendCrudMessage(string action)
         {
-
-        }
-
-        private BindingList<Purchase> purchases = new BindingList<Purchase>();
-
-
-        private void LoadPurchases()
-        {
-                // Keep the same BindingList so that UI updates automatically
-                purchases.Clear();
-
-                purchases.Add(new Purchase
-                {
-                    purchase_id = "P001",
-                    inventory_id = "INV001",
-                    supplier_id = "SUP001",
-                    date_id = 1,
-                    fin_date = "2025-09-25",
-                    unit_cost_price = 10,
-                    quantity_purchased = 5,
-                    total_cost = 50
-                });
-
-                purchases.Add(new Purchase
-                {
-                    purchase_id = "P002",
-                    inventory_id = "INV002",
-                    supplier_id = "SUP002",
-                    date_id = 2,
-                    fin_date = "2025-09-26",
-                    unit_cost_price = 20,
-                    quantity_purchased = 3,
-                    total_cost = 60
-                });
-
-                // ✅ Bind the list once inside this method
-                listBox1.DataSource = purchases;
-                listBox1.DisplayMember = ""; // Uses Purchase.ToString()
-            }
-       
-
-
-
-
-
-        public class Purchase
-        {
-            public string purchase_id { get; set; }
-            public string inventory_id { get; set; }
-            public string supplier_id { get; set; }
-            public int date_id { get; set; }
-            public string fin_date { get; set; }  // yyyy-MM-dd
-            public decimal unit_cost_price { get; set; }
-            public int quantity_purchased { get; set; }
-            public decimal total_cost { get; set; }
-
-
-            public override string ToString()
+            var purchase = new
             {
-                return $"{purchase_id} - {inventory_id} ({quantity_purchased})";
-            }
+                action,
+                purchase_id = txtPurchaseId.Text,
+                inventory_id = txtInventoryId.Text,
+                supplier_id = txtSupplierId.Text,
+                date_id = int.Parse(txtDateId.Text),
+                fin_date = txtFinDate.Text,
+                unit_cost_price = decimal.Parse(txtUnitCost.Text),
+                quantity_purchased = int.Parse(txtQuantity.Text),
+                total_cost = decimal.Parse(txtTotalCost.Text)
+            };
+
+            string json = Newtonsoft.Json.JsonConvert.SerializeObject(purchase);
+            await SendKafkaMessage(Guid.NewGuid().ToString(), json); // reuse your existing SendKafkaMessage
         }
 
-        private async Task SendToKafkaAsync(Purchase purchase)
+        // === Kafka Producer ===
+        private async Task SendKafkaMessage(string key, string value)
         {
             var config = new ProducerConfig
             {
-                BootstrapServers = "localhost:9092"
+                BootstrapServers = BootstrapServers
             };
 
-            using (var producer = new ProducerBuilder<Null, string>(config).Build())
-            {
-                string json = JsonConvert.SerializeObject(purchase);
-
-                var result = await producer.ProduceAsync(
-                    "purchases-topic",
-                    new Message<Null, string> { Value = json }
-                );
-
-                Console.WriteLine($"✅ Sent to Kafka: {result.TopicPartitionOffset}");
-            }
-        }
-
-        private async void button1_Click(object sender, EventArgs e)
-        {
+            using var producer = new ProducerBuilder<string, string>(config).Build();
             try
             {
-                // Build purchase object from controls
-                var purchase = new Purchase
+                var result = await producer.ProduceAsync(
+                    TopicName,
+                    new Message<string, string> { Key = key, Value = value });
+
+                MessageBox.Show($"Delivered to: {result.TopicPartitionOffset}");
+            }
+            catch (ProduceException<string, string> ex)
+            {
+                MessageBox.Show($"Delivery failed: {ex.Error.Reason}");
+            }
+        }
+
+        // === Kafka Consumer ===
+        private void StartConsumer()
+        {
+            _cts = new CancellationTokenSource();
+            Task.Run(() =>
+            {
+                var config = new ConsumerConfig
                 {
-                    purchase_id = purchase_id.Text,
-                    inventory_id = inventory_id.Text,
-                    supplier_id = supplier_id.Text,
-                    date_id = (int)date_id.Value,
-                    fin_date = fin_date.Value.ToString("yyyy-MM-dd"),
-                    unit_cost_price = unit_cost_price.Value,
-                    quantity_purchased = (int)quantity_purchased.Value,
-                    total_cost = total_cost.Value
+                    BootstrapServers = BootstrapServers,
+                    GroupId = "winforms-consumer-group",
+                    AutoOffsetReset = AutoOffsetReset.Earliest
                 };
 
-                purchases.Add(purchase);
+                using var consumer = new ConsumerBuilder<Ignore, string>(config).Build();
+                consumer.Subscribe(TopicName);
 
-                await SendToKafkaAsync(purchase);
-                MessageBox.Show("✅ Purchase sent to Kafka!", "Success",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"❌ Error: {ex.Message}", "Kafka Error",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+                try
+                {
+                    while (!_cts.Token.IsCancellationRequested)
+                    {
+                        var cr = consumer.Consume(_cts.Token);
+                        // Update UI safely
+                        this.Invoke((MethodInvoker)(() =>
+                        {
+                            txtMessages.AppendText($"Received: {cr.Message.Value}\r\n");
+                        }));
+                    }
+                }
+                catch (OperationCanceledException)
+                {
+                    consumer.Close();
+                }
+            });
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void StopConsumer()
         {
-            if (listBox1.SelectedItem is Purchase selected)
-            {
-                purchase_id.Text = selected.purchase_id;
-                inventory_id.Text = selected.inventory_id;
-                supplier_id.Text = selected.supplier_id;
-                date_id.Value = selected.date_id;
-                fin_date.Value = DateTime.Parse(selected.fin_date);
-                unit_cost_price.Value = selected.unit_cost_price;
-                quantity_purchased.Value = selected.quantity_purchased;
-                total_cost.Value = selected.total_cost;
-            }
+            _cts?.Cancel();
         }
 
-        private async void button2_Click(object sender, EventArgs e)
-        {
-            if (listBox1.SelectedItem is Purchase selected)
-            {
-                // Update fields from controls
-                selected.inventory_id = inventory_id.Text;
-                selected.supplier_id = supplier_id.Text;
-                selected.date_id = (int)date_id.Value;
-                selected.fin_date = fin_date.Value.ToString("yyyy-MM-dd");
-                selected.unit_cost_price = unit_cost_price.Value;
-                selected.quantity_purchased = (int)quantity_purchased.Value;
-                selected.total_cost = total_cost.Value;
+        private async void btnCreate_Click(object sender, EventArgs e)
+            => await SendCrudMessage("create");
 
-                await SendToKafkaAsync(selected);  // ✅ Send update
-                MessageBox.Show("✅ Purchase updated and sent to Kafka!", "Update",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else
-            {
-                MessageBox.Show("⚠️ Please select a purchase to update.", "No Selection",
-                    MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-        }
+        private async void btnUpdate_Click(object sender, EventArgs e)
+            => await SendCrudMessage("update");
 
-        private async void button3_Click(object sender, EventArgs e)
-        {
-            if (listBox1.SelectedItem is Purchase selected)
-            {
-                var deleteMessage = new { action = "delete", purchase_id = selected.purchase_id };
-                await SendDeleteToKafkaAsync(deleteMessage);
-
-                purchases.Remove(selected);
-
-                MessageBox.Show("✅ Purchase deleted!", "Delete",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-        }
-
-        private async Task SendDeleteToKafkaAsync(object message)
-        {
-            var config = new ProducerConfig { BootstrapServers = "localhost:9092" };
-            using (var producer = new ProducerBuilder<Null, string>(config).Build())
-            {
-                string json = JsonConvert.SerializeObject(message);
-                await producer.ProduceAsync(
-                    "purchases-topic",
-                    new Message<Null, string> { Value = json }
-                );
-            }
-        }
+        private async void btnDelete_Click(object sender, EventArgs e)
+            => await SendCrudMessage("delete");
 
     }
 }
