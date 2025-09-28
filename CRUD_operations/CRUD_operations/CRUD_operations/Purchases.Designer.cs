@@ -29,251 +29,250 @@ namespace CRUD_operations
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnUpdate = new System.Windows.Forms.Button();
-            this.btnCreate = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dtpFinDate = new System.Windows.Forms.DateTimePicker();
-            this.numTotalCost = new System.Windows.Forms.NumericUpDown();
-            this.numQuantity = new System.Windows.Forms.NumericUpDown();
-            this.numUnitCost = new System.Windows.Forms.NumericUpDown();
-            this.numDate = new System.Windows.Forms.NumericUpDown();
+            this.button1 = new System.Windows.Forms.Button();
+            this.purchase_id = new System.Windows.Forms.TextBox();
+            this.supplier_id = new System.Windows.Forms.TextBox();
+            this.inventory_id = new System.Windows.Forms.TextBox();
+            this.fin_date = new System.Windows.Forms.DateTimePicker();
+            this.quantity_purchased = new System.Windows.Forms.NumericUpDown();
+            this.unit_cost_price = new System.Windows.Forms.NumericUpDown();
+            this.date_id = new System.Windows.Forms.NumericUpDown();
+            this.total_cost = new System.Windows.Forms.NumericUpDown();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtSupplierId = new System.Windows.Forms.TextBox();
-            this.txtInventoryId = new System.Windows.Forms.TextBox();
-            this.txtPurchaseId = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numTotalCost)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numQuantity)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numUnitCost)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numDate)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.quantity_purchased)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.unit_cost_price)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.date_id)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.total_cost)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnUpdate
+            // button2
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(855, 219);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(220, 41);
-            this.btnUpdate.TabIndex = 42;
-            this.btnUpdate.Text = "Update";
-            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.button2.Location = new System.Drawing.Point(604, 254);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(181, 28);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Update";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // btnCreate
+            // button3
             // 
-            this.btnCreate.Location = new System.Drawing.Point(855, 137);
-            this.btnCreate.Name = "btnCreate";
-            this.btnCreate.Size = new System.Drawing.Size(220, 41);
-            this.btnCreate.TabIndex = 41;
-            this.btnCreate.Text = "Create";
-            this.btnCreate.UseVisualStyleBackColor = true;
-            this.btnCreate.Click += new System.EventHandler(this.btnCreate_Click);
+            this.button3.Location = new System.Drawing.Point(791, 254);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(181, 28);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "Delete";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // btnDelete
+            // listBox1
             // 
-            this.btnDelete.Location = new System.Drawing.Point(855, 263);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(220, 41);
-            this.btnDelete.TabIndex = 40;
-            this.btnDelete.Text = "Delete";
-            this.btnDelete.UseVisualStyleBackColor = true;
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 327);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(1087, 326);
-            this.dataGridView1.TabIndex = 43;
-            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 20;
+            this.listBox1.Location = new System.Drawing.Point(58, 298);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(929, 324);
+            this.listBox1.TabIndex = 3;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.dtpFinDate);
-            this.groupBox1.Controls.Add(this.numTotalCost);
-            this.groupBox1.Controls.Add(this.numQuantity);
-            this.groupBox1.Controls.Add(this.numUnitCost);
-            this.groupBox1.Controls.Add(this.numDate);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.txtSupplierId);
-            this.groupBox1.Controls.Add(this.txtInventoryId);
-            this.groupBox1.Controls.Add(this.txtPurchaseId);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Controls.Add(this.total_cost);
+            this.groupBox1.Controls.Add(this.date_id);
+            this.groupBox1.Controls.Add(this.unit_cost_price);
+            this.groupBox1.Controls.Add(this.quantity_purchased);
+            this.groupBox1.Controls.Add(this.fin_date);
+            this.groupBox1.Controls.Add(this.inventory_id);
+            this.groupBox1.Controls.Add(this.supplier_id);
+            this.groupBox1.Controls.Add(this.purchase_id);
+            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Location = new System.Drawing.Point(58, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(837, 292);
-            this.groupBox1.TabIndex = 44;
+            this.groupBox1.Size = new System.Drawing.Size(929, 223);
+            this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Purchase Details";
+            this.groupBox1.Text = "New Purchase";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // dtpFinDate
+            // button1
             // 
-            this.dtpFinDate.Location = new System.Drawing.Point(585, 34);
-            this.dtpFinDate.Name = "dtpFinDate";
-            this.dtpFinDate.Size = new System.Drawing.Size(169, 26);
-            this.dtpFinDate.TabIndex = 60;
+            this.button1.Location = new System.Drawing.Point(733, 189);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(181, 28);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "Add";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // numTotalCost
+            // purchase_id
             // 
-            this.numTotalCost.DecimalPlaces = 2;
-            this.numTotalCost.Location = new System.Drawing.Point(585, 226);
-            this.numTotalCost.Maximum = new decimal(new int[] {
-            999999999,
+            this.purchase_id.Location = new System.Drawing.Point(153, 35);
+            this.purchase_id.Name = "purchase_id";
+            this.purchase_id.Size = new System.Drawing.Size(100, 26);
+            this.purchase_id.TabIndex = 6;
+            // 
+            // supplier_id
+            // 
+            this.supplier_id.Location = new System.Drawing.Point(153, 118);
+            this.supplier_id.Name = "supplier_id";
+            this.supplier_id.Size = new System.Drawing.Size(100, 26);
+            this.supplier_id.TabIndex = 7;
+            // 
+            // inventory_id
+            // 
+            this.inventory_id.Location = new System.Drawing.Point(153, 77);
+            this.inventory_id.Name = "inventory_id";
+            this.inventory_id.Size = new System.Drawing.Size(100, 26);
+            this.inventory_id.TabIndex = 8;
+            // 
+            // fin_date
+            // 
+            this.fin_date.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.fin_date.Location = new System.Drawing.Point(570, 33);
+            this.fin_date.Name = "fin_date";
+            this.fin_date.Size = new System.Drawing.Size(200, 26);
+            this.fin_date.TabIndex = 10;
+            this.fin_date.ValueChanged += new System.EventHandler(this.fin_date_ValueChanged);
+            // 
+            // quantity_purchased
+            // 
+            this.quantity_purchased.Increment = new decimal(new int[] {
+            1,
             0,
             0,
-            0});
-            this.numTotalCost.Name = "numTotalCost";
-            this.numTotalCost.Size = new System.Drawing.Size(169, 26);
-            this.numTotalCost.TabIndex = 59;
+            65536});
+            this.quantity_purchased.Location = new System.Drawing.Point(570, 116);
+            this.quantity_purchased.Name = "quantity_purchased";
+            this.quantity_purchased.Size = new System.Drawing.Size(120, 26);
+            this.quantity_purchased.TabIndex = 13;
             // 
-            // numQuantity
+            // unit_cost_price
             // 
-            this.numQuantity.DecimalPlaces = 2;
-            this.numQuantity.Location = new System.Drawing.Point(585, 162);
-            this.numQuantity.Maximum = new decimal(new int[] {
-            999999999,
+            this.unit_cost_price.Increment = new decimal(new int[] {
+            1,
             0,
             0,
-            0});
-            this.numQuantity.Name = "numQuantity";
-            this.numQuantity.Size = new System.Drawing.Size(169, 26);
-            this.numQuantity.TabIndex = 58;
+            65536});
+            this.unit_cost_price.Location = new System.Drawing.Point(570, 77);
+            this.unit_cost_price.Name = "unit_cost_price";
+            this.unit_cost_price.Size = new System.Drawing.Size(120, 26);
+            this.unit_cost_price.TabIndex = 14;
             // 
-            // numUnitCost
+            // date_id
             // 
-            this.numUnitCost.DecimalPlaces = 2;
-            this.numUnitCost.Location = new System.Drawing.Point(585, 103);
-            this.numUnitCost.Maximum = new decimal(new int[] {
-            999999999,
+            this.date_id.Increment = new decimal(new int[] {
+            1,
             0,
             0,
-            0});
-            this.numUnitCost.Name = "numUnitCost";
-            this.numUnitCost.Size = new System.Drawing.Size(169, 26);
-            this.numUnitCost.TabIndex = 57;
+            65536});
+            this.date_id.Location = new System.Drawing.Point(153, 159);
+            this.date_id.Name = "date_id";
+            this.date_id.Size = new System.Drawing.Size(120, 26);
+            this.date_id.TabIndex = 15;
             // 
-            // numDate
+            // total_cost
             // 
-            this.numDate.DecimalPlaces = 2;
-            this.numDate.Location = new System.Drawing.Point(199, 222);
-            this.numDate.Maximum = new decimal(new int[] {
-            999999999,
+            this.total_cost.Increment = new decimal(new int[] {
+            1,
             0,
             0,
-            0});
-            this.numDate.Name = "numDate";
-            this.numDate.Size = new System.Drawing.Size(169, 26);
-            this.numDate.TabIndex = 56;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(410, 234);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(79, 20);
-            this.label5.TabIndex = 55;
-            this.label5.Text = "total_cost";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(410, 168);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(149, 20);
-            this.label6.TabIndex = 54;
-            this.label6.Text = "quantity_purchased";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(410, 109);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(117, 20);
-            this.label7.TabIndex = 53;
-            this.label7.Text = "unit_cost_price";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(410, 37);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(67, 20);
-            this.label8.TabIndex = 52;
-            this.label8.Text = "fin_date";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(55, 228);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(62, 20);
-            this.label4.TabIndex = 51;
-            this.label4.Text = "date_id";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(55, 168);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(85, 20);
-            this.label3.TabIndex = 50;
-            this.label3.Text = "supplier_id";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(55, 109);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(93, 20);
-            this.label2.TabIndex = 49;
-            this.label2.Text = "inventory_id";
+            65536});
+            this.total_cost.Location = new System.Drawing.Point(570, 157);
+            this.total_cost.Name = "total_cost";
+            this.total_cost.Size = new System.Drawing.Size(120, 26);
+            this.total_cost.TabIndex = 16;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(55, 37);
+            this.label1.Location = new System.Drawing.Point(37, 41);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 20);
-            this.label1.TabIndex = 48;
-            this.label1.Text = "purchase_id";
+            this.label1.Size = new System.Drawing.Size(51, 20);
+            this.label1.TabIndex = 17;
+            this.label1.Text = "label1";
             // 
-            // txtSupplierId
+            // label2
             // 
-            this.txtSupplierId.Location = new System.Drawing.Point(199, 161);
-            this.txtSupplierId.Name = "txtSupplierId";
-            this.txtSupplierId.Size = new System.Drawing.Size(169, 26);
-            this.txtSupplierId.TabIndex = 42;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(37, 83);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(51, 20);
+            this.label2.TabIndex = 18;
+            this.label2.Text = "label2";
             // 
-            // txtInventoryId
+            // label3
             // 
-            this.txtInventoryId.Location = new System.Drawing.Point(199, 103);
-            this.txtInventoryId.Name = "txtInventoryId";
-            this.txtInventoryId.Size = new System.Drawing.Size(169, 26);
-            this.txtInventoryId.TabIndex = 41;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(37, 124);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(51, 20);
+            this.label3.TabIndex = 19;
+            this.label3.Text = "label3";
             // 
-            // txtPurchaseId
+            // label4
             // 
-            this.txtPurchaseId.Location = new System.Drawing.Point(199, 34);
-            this.txtPurchaseId.Name = "txtPurchaseId";
-            this.txtPurchaseId.Size = new System.Drawing.Size(169, 26);
-            this.txtPurchaseId.TabIndex = 40;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(37, 159);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(51, 20);
+            this.label4.TabIndex = 20;
+            this.label4.Text = "label4";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(489, 35);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(51, 20);
+            this.label5.TabIndex = 21;
+            this.label5.Text = "label5";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(489, 80);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(51, 20);
+            this.label6.TabIndex = 22;
+            this.label6.Text = "label6";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(489, 118);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(51, 20);
+            this.label7.TabIndex = 23;
+            this.label7.Text = "label7";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(489, 159);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(51, 20);
+            this.label8.TabIndex = 24;
+            this.label8.Text = "label8";
             // 
             // Purchases
             // 
@@ -281,46 +280,44 @@ namespace CRUD_operations
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1087, 653);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.btnUpdate);
-            this.Controls.Add(this.btnCreate);
-            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
             this.Name = "Purchases";
             this.Text = "Purchases";
             this.Load += new System.EventHandler(this.Purchases_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numTotalCost)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numQuantity)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numUnitCost)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numDate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.quantity_purchased)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.unit_cost_price)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.date_id)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.total_cost)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnUpdate;
-        private System.Windows.Forms.Button btnCreate;
-        private System.Windows.Forms.Button btnDelete;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtSupplierId;
-        private System.Windows.Forms.TextBox txtInventoryId;
-        private System.Windows.Forms.TextBox txtPurchaseId;
-        private System.Windows.Forms.NumericUpDown numTotalCost;
-        private System.Windows.Forms.NumericUpDown numQuantity;
-        private System.Windows.Forms.NumericUpDown numUnitCost;
-        private System.Windows.Forms.NumericUpDown numDate;
-        private System.Windows.Forms.DateTimePicker dtpFinDate;
+        private System.Windows.Forms.NumericUpDown total_cost;
+        private System.Windows.Forms.NumericUpDown date_id;
+        private System.Windows.Forms.NumericUpDown unit_cost_price;
+        private System.Windows.Forms.NumericUpDown quantity_purchased;
+        private System.Windows.Forms.DateTimePicker fin_date;
+        private System.Windows.Forms.TextBox inventory_id;
+        private System.Windows.Forms.TextBox supplier_id;
+        private System.Windows.Forms.TextBox purchase_id;
     }
 }
