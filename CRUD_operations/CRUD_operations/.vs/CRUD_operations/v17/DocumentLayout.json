@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rochelle\\Desktop\\CMPG 321\\project\\CRUD\\CMPG321_BigData\\CMPG321_BigData_CRUD\\CRUD_operations\\CRUD_operations\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B565D-8FA8-4624-8770-101022566AD7}|CRUD_operations\\CRUD_operations.csproj|c:\\users\\rochelle\\desktop\\cmpg 321\\project\\crud\\cmpg321_bigdata\\cmpg321_bigdata_crud\\crud_operations\\crud_operations\\crud_operations\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77B565D-8FA8-4624-8770-101022566AD7}|CRUD_operations\\CRUD_operations.csproj|solutionrelative:crud_operations\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B565D-8FA8-4624-8770-101022566AD7}|CRUD_operations\\CRUD_operations.csproj|c:\\users\\rochelle\\desktop\\cmpg 321\\project\\crud\\cmpg321_bigdata\\cmpg321_bigdata_crud\\crud_operations\\crud_operations\\crud_operations\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77B565D-8FA8-4624-8770-101022566AD7}|CRUD_operations\\CRUD_operations.csproj|solutionrelative:crud_operations\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B565D-8FA8-4624-8770-101022566AD7}|CRUD_operations\\CRUD_operations.csproj|c:\\users\\rochelle\\desktop\\cmpg 321\\project\\crud\\cmpg321_bigdata\\cmpg321_bigdata_crud\\crud_operations\\crud_operations\\crud_operations\\sales.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77B565D-8FA8-4624-8770-101022566AD7}|CRUD_operations\\CRUD_operations.csproj|solutionrelative:crud_operations\\sales.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B565D-8FA8-4624-8770-101022566AD7}|CRUD_operations\\CRUD_operations.csproj|C:\\Users\\Rochelle\\Desktop\\CMPG 321\\project\\CRUD\\CMPG321_BigData\\CMPG321_BigData_CRUD\\CRUD_operations\\CRUD_operations\\crud_operations\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E77B565D-8FA8-4624-8770-101022566AD7}|CRUD_operations\\CRUD_operations.csproj|solutionrelative:crud_operations\\sales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B565D-8FA8-4624-8770-101022566AD7}|CRUD_operations\\CRUD_operations.csproj|c:\\users\\rochelle\\desktop\\cmpg 321\\project\\crud\\cmpg321_bigdata\\cmpg321_bigdata_crud\\crud_operations\\crud_operations\\crud_operations\\purchases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E77B565D-8FA8-4624-8770-101022566AD7}|CRUD_operations\\CRUD_operations.csproj|solutionrelative:crud_operations\\purchases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B565D-8FA8-4624-8770-101022566AD7}|CRUD_operations\\CRUD_operations.csproj|c:\\users\\rochelle\\desktop\\cmpg 321\\project\\crud\\cmpg321_bigdata\\cmpg321_bigdata_crud\\crud_operations\\crud_operations\\crud_operations\\purchases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77B565D-8FA8-4624-8770-101022566AD7}|CRUD_operations\\CRUD_operations.csproj|solutionrelative:crud_operations\\purchases.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B565D-8FA8-4624-8770-101022566AD7}|CRUD_operations\\CRUD_operations.csproj|C:\\Users\\Rochelle\\Desktop\\CMPG 321\\project\\CRUD\\CMPG321_BigData\\CMPG321_BigData_CRUD\\CRUD_operations\\CRUD_operations\\crud_operations\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E77B565D-8FA8-4624-8770-101022566AD7}|CRUD_operations\\CRUD_operations.csproj|solutionrelative:crud_operations\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B565D-8FA8-4624-8770-101022566AD7}|CRUD_operations\\CRUD_operations.csproj|C:\\Users\\Rochelle\\Desktop\\CMPG 321\\project\\CRUD\\CMPG321_BigData\\CMPG321_BigData_CRUD\\CRUD_operations\\CRUD_operations\\crud_operations\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E77B565D-8FA8-4624-8770-101022566AD7}|CRUD_operations\\CRUD_operations.csproj|solutionrelative:crud_operations\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E77B565D-8FA8-4624-8770-101022566AD7}|CRUD_operations\\CRUD_operations.csproj|c:\\users\\rochelle\\desktop\\cmpg 321\\project\\crud\\cmpg321_bigdata\\cmpg321_bigdata_crud\\crud_operations\\crud_operations\\crud_operations\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E77B565D-8FA8-4624-8770-101022566AD7}|CRUD_operations\\CRUD_operations.csproj|solutionrelative:crud_operations\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Home.cs",
+              "DocumentMoniker": "C:\\Users\\Rochelle\\Desktop\\CMPG 321\\project\\CRUD\\CMPG321_BigData\\CMPG321_BigData_CRUD\\CRUD_operations\\CRUD_operations\\CRUD_operations\\Home.cs",
+              "RelativeDocumentMoniker": "CRUD_operations\\Home.cs",
+              "ToolTip": "C:\\Users\\Rochelle\\Desktop\\CMPG 321\\project\\CRUD\\CMPG321_BigData\\CMPG321_BigData_CRUD\\CRUD_operations\\CRUD_operations\\CRUD_operations\\Home.cs",
+              "RelativeToolTip": "CRUD_operations\\Home.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBcAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T18:27:45.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sales.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Rochelle\\Desktop\\CMPG 321\\project\\CRUD\\CMPG321_BigData\\CMPG321_BigData_CRUD\\CRUD_operations\\CRUD_operations\\CRUD_operations\\Sales.Designer.cs",
+              "RelativeDocumentMoniker": "CRUD_operations\\Sales.Designer.cs",
+              "ToolTip": "C:\\Users\\Rochelle\\Desktop\\CMPG 321\\project\\CRUD\\CMPG321_BigData\\CMPG321_BigData_CRUD\\CRUD_operations\\CRUD_operations\\CRUD_operations\\Sales.Designer.cs",
+              "RelativeToolTip": "CRUD_operations\\Sales.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T18:20:09.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\Rochelle\\Desktop\\CMPG 321\\project\\CRUD\\CMPG321_BigData\\CMPG321_BigData_CRUD\\CRUD_operations\\CRUD_operations\\CRUD_operations\\Sale.cs",
+              "RelativeDocumentMoniker": "CRUD_operations\\Sale.cs",
+              "ToolTip": "C:\\Users\\Rochelle\\Desktop\\CMPG 321\\project\\CRUD\\CMPG321_BigData\\CMPG321_BigData_CRUD\\CRUD_operations\\CRUD_operations\\CRUD_operations\\Sale.cs",
+              "RelativeToolTip": "CRUD_operations\\Sale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T18:16:00.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sales.cs",
+              "DocumentMoniker": "C:\\Users\\Rochelle\\Desktop\\CMPG 321\\project\\CRUD\\CMPG321_BigData\\CMPG321_BigData_CRUD\\CRUD_operations\\CRUD_operations\\CRUD_operations\\Sales.cs",
+              "RelativeDocumentMoniker": "CRUD_operations\\Sales.cs",
+              "ToolTip": "C:\\Users\\Rochelle\\Desktop\\CMPG 321\\project\\CRUD\\CMPG321_BigData\\CMPG321_BigData_CRUD\\CRUD_operations\\CRUD_operations\\CRUD_operations\\Sales.cs",
+              "RelativeToolTip": "CRUD_operations\\Sales.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAmwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T17:58:13.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Purchases.cs",
+              "DocumentMoniker": "C:\\Users\\Rochelle\\Desktop\\CMPG 321\\project\\CRUD\\CMPG321_BigData\\CMPG321_BigData_CRUD\\CRUD_operations\\CRUD_operations\\CRUD_operations\\Purchases.cs",
+              "RelativeDocumentMoniker": "CRUD_operations\\Purchases.cs",
+              "ToolTip": "C:\\Users\\Rochelle\\Desktop\\CMPG 321\\project\\CRUD\\CMPG321_BigData\\CMPG321_BigData_CRUD\\CRUD_operations\\CRUD_operations\\CRUD_operations\\Purchases.cs",
+              "RelativeToolTip": "CRUD_operations\\Purchases.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAAALgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T17:13:07.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Purchases.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rochelle\\Desktop\\CMPG 321\\project\\CRUD\\CMPG321_BigData\\CMPG321_BigData_CRUD\\CRUD_operations\\CRUD_operations\\CRUD_operations\\Purchases.cs",
+              "RelativeDocumentMoniker": "CRUD_operations\\Purchases.cs",
+              "ToolTip": "C:\\Users\\Rochelle\\Desktop\\CMPG 321\\project\\CRUD\\CMPG321_BigData\\CMPG321_BigData_CRUD\\CRUD_operations\\CRUD_operations\\CRUD_operations\\Purchases.cs [Design]",
+              "RelativeToolTip": "CRUD_operations\\Purchases.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T20:13:11.206Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sales.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rochelle\\Desktop\\CMPG 321\\project\\CRUD\\CMPG321_BigData\\CMPG321_BigData_CRUD\\CRUD_operations\\CRUD_operations\\CRUD_operations\\Sales.cs",
+              "RelativeDocumentMoniker": "CRUD_operations\\Sales.cs",
+              "ToolTip": "C:\\Users\\Rochelle\\Desktop\\CMPG 321\\project\\CRUD\\CMPG321_BigData\\CMPG321_BigData_CRUD\\CRUD_operations\\CRUD_operations\\CRUD_operations\\Sales.cs [Design]",
+              "RelativeToolTip": "CRUD_operations\\Sales.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T17:34:24.29Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Payments.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rochelle\\Desktop\\CMPG 321\\project\\CRUD\\CMPG321_BigData\\CMPG321_BigData_CRUD\\CRUD_operations\\CRUD_operations\\CRUD_operations\\payments.cs",
+              "RelativeDocumentMoniker": "CRUD_operations\\payments.cs",
+              "ToolTip": "C:\\Users\\Rochelle\\Desktop\\CMPG 321\\project\\CRUD\\CMPG321_BigData\\CMPG321_BigData_CRUD\\CRUD_operations\\CRUD_operations\\CRUD_operations\\payments.cs [Design]",
+              "RelativeToolTip": "CRUD_operations\\payments.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T20:13:58.446Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rochelle\\Desktop\\CMPG 321\\project\\CRUD\\CMPG321_BigData\\CMPG321_BigData_CRUD\\CRUD_operations\\CRUD_operations\\CRUD_operations\\Home.cs",
+              "RelativeDocumentMoniker": "CRUD_operations\\Home.cs",
+              "ToolTip": "C:\\Users\\Rochelle\\Desktop\\CMPG 321\\project\\CRUD\\CMPG321_BigData\\CMPG321_BigData_CRUD\\CRUD_operations\\CRUD_operations\\CRUD_operations\\Home.cs [Design]",
+              "RelativeToolTip": "CRUD_operations\\Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-25T21:32:03.72Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
