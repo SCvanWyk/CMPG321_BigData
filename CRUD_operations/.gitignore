@@ -1,0 +1,20 @@
+﻿# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build folders
+bin/
+obj/
+
+# NuGet packages (classic packages folder)
+packages/
+
+# Rider/IDE/temp
+.idea/
+.vscode/
+
+# logs and local files
+*.log
