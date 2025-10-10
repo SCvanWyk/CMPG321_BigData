@@ -1,20 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Confluent.Kafka;
 using Newtonsoft.Json;
+using System.Threading.Tasks;
 
 
 namespace CRUD_operations
 {
     public partial class Purchases : Form
     {
+        private BindingList<Purchase> purchasesList = new BindingList<Purchase>();
         public Purchases()
         {
             InitializeComponent();
@@ -22,9 +18,8 @@ namespace CRUD_operations
 
         private void Purchases_Load(object sender, EventArgs e)
         {
-            listBox1.DataSource = purchases;
-            listBox1.DisplayMember = "";
-            LoadPurchases();
+            listBoxPurchases.DataSource = purchasesList;
+            listBoxPurchases.DisplayMember = "ToString"; // Calls Purchase.ToString()
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
@@ -70,8 +65,8 @@ namespace CRUD_operations
                 });
 
                 // ✅ Bind the list once inside this method
-                listBox1.DataSource = purchases;
-                listBox1.DisplayMember = ""; // Uses Purchase.ToString()
+                listBoxPurchases.DataSource = purchases;
+                listBoxPurchases.DisplayMember = ""; // Uses Purchase.ToString()
             }
        
 
@@ -101,19 +96,19 @@ namespace CRUD_operations
         {
             var config = new ProducerConfig
             {
-                BootstrapServers = "localhost:9092"
+                BootstrapServers = "pkc-q283m.af-south-1.aws.confluent.cloud:9092",
+                SecurityProtocol = SecurityProtocol.SaslSsl,
+                SaslMechanism = SaslMechanism.Plain,
+                SaslUsername = "V2AFGAJLXBX443EI",
+                SaslPassword = "cflt06SDf1XC+F6hi53WOlmue7Nv+6Isn0+LwLRnHonIovT1eyWaz/s3TyIJEpNA",
+                Acks = Acks.All
             };
 
             using (var producer = new ProducerBuilder<Null, string>(config).Build())
             {
                 string json = JsonConvert.SerializeObject(purchase);
-
-                var result = await producer.ProduceAsync(
-                    "purchases-topic",
-                    new Message<Null, string> { Value = json }
-                );
-
-                Console.WriteLine($"✅ Sent to Kafka: {result.TopicPartitionOffset}");
+                var result = await producer.ProduceAsync("purchases-topic", new Message<Null, string> { Value = json });
+                Console.WriteLine($"Sent to Kafka: {result.TopicPartitionOffset}");
             }
         }
 
@@ -149,7 +144,7 @@ namespace CRUD_operations
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (listBox1.SelectedItem is Purchase selected)
+            if (listBoxPurchases.SelectedItem is Purchase selected)
             {
                 purchase_id.Text = selected.purchase_id;
                 inventory_id.Text = selected.inventory_id;
@@ -164,7 +159,7 @@ namespace CRUD_operations
 
         private async void button2_Click(object sender, EventArgs e)
         {
-            if (listBox1.SelectedItem is Purchase selected)
+            if (listBoxPurchases.SelectedItem is Purchase selected)
             {
                 // Update fields from controls
                 selected.inventory_id = inventory_id.Text;
@@ -188,7 +183,7 @@ namespace CRUD_operations
 
         private async void button3_Click(object sender, EventArgs e)
         {
-            if (listBox1.SelectedItem is Purchase selected)
+            if (listBoxPurchases.SelectedItem is Purchase selected)
             {
                 var deleteMessage = new { action = "delete", purchase_id = selected.purchase_id };
                 await SendDeleteToKafkaAsync(deleteMessage);
