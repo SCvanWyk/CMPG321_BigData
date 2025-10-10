@@ -11,9 +11,9 @@ namespace CRUD_operations
         public int fin_date { get; set; }
         public string inventory_code { get; set; }
         public int quantity_sold { get; set; }
-        public int unit_selling_price { get; set; }
-        public int unit_last_cost { get; set; }
-        public int total_line_price { get; set; }
+        public decimal unit_selling_price { get; set; }
+        public decimal unit_last_cost { get; set; }
+        public decimal total_line_price { get; set; }
 
         public override string ToString()
         {

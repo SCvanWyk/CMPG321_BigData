@@ -1,0 +1,14 @@
+{
+  "name": "mongo-atlas-sink",
+  "config": {
+    "connector.class": "com.mongodb.kafka.connect.MongoSinkConnector",
+    "tasks.max": "1",
+    "topics": "crud-events",
+    "connection.uri": "mongodb+srv://admin:admin@clearvueprod.si7sh3x.mongodb.net/?retryWrites=true&w=majority&appName=ClearVueProd",
+    "database": "mydb",
+    "collection": "crud_events",
+    "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "value.converter.schemas.enable": "false"
+  }
+}
