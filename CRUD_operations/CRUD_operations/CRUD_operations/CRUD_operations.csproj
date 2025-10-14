@@ -160,7 +160,7 @@
     <Compile Include="Home.Designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="MongoHelper.cs" />
+    
     <Compile Include="Payments.cs">
       <SubType>Form</SubType>
     </Compile>
