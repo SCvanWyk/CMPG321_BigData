@@ -92,7 +92,7 @@ Performance Testing in MongoDB Compass:
 - Run these through the explain("executionStats") command in MongoDB Compass to analyze execution plans.
 - Use the explain()
 
-4. Project Structure
+#Project Structure
 .
 ├── configuration files    	# Setup files for environment and dependencies.
 ├── scripts/               		# All executable code and ETL logic.
