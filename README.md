@@ -94,17 +94,16 @@ Performance Testing in MongoDB Compass:
 
 # Project Structure
 .
-├── configuration files    	# Setup files for environment and dependencies.
-├── scripts/               		# All executable code and ETL logic.
-│   ├── batch_etl/       		# Scripts for Pandas data cleaning and batch loading to MongoDB.
-│   └── kafka_streaming/        	# Scripts for Kafka producer/user to handle real-time data flow.
-├── data/                 		# Repository for data files.
-│   ├── raw/               		# Original, source data (e.g., historical CSVs).
-│   └── cleaned/         	# Cleaned and transformed data (ready for database loading).
-├── database_schemas/      	# Conceptual and logical data models (NoSQL structure, dimension definitions).
-├── dashboards/            	# Final BI visualization assets (e.g., Power BI .pbix files).
-└── docs/                 		# Project documentation, reports, and meeting notes.
-
+├── configuration files    # Setup files (.gitignore, requirements.txt) for environment and dependencies.
+├── scripts/               # All executable code and ETL logic.
+│   ├── batch_etl/         # Scripts for Pandas data cleaning and batch loading to MongoDB.
+│   └── streaming/         # Scripts for Kafka producer/consumer to handle real-time data flow.
+├── data/                  # Repository for data files.
+│   ├── raw/               # Original, source data (e.g., historical CSVs).
+│   └── processed/         # Cleaned and transformed data (ready for database loading).
+├── database_schemas/      # Conceptual and logical data models (NoSQL structure, dimension definitions).
+├── dashboards/            # Final BI visualization assets (e.g., Power BI .pbix files).
+└── docs/                  # Project documentation, reports, and meeting notes.
 
 
 
