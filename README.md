@@ -61,7 +61,7 @@ Cluster provisioned, Database User created with read/write access, and Network A
 Apache Kafka
 Topic (payment_events) created for real-time data flow. Connection credentials (API Key, Secret, Bootstrap Servers) secured in the .env file.
 
-2. Phase 2: ETL & Streaming Development Steps
+# Phase 2: ETL & Streaming Development Steps
 The focus of this phase is delivering a working MongoDB instance with clean, integrated data.
 
 Task 1: Batch ETL (Pandas)
@@ -92,7 +92,7 @@ Performance Testing in MongoDB Compass:
 - Run these through the explain("executionStats") command in MongoDB Compass to analyze execution plans.
 - Use the explain()
 
-#Project Structure
+# Project Structure
 .
 ├── configuration files    	# Setup files for environment and dependencies.
 ├── scripts/               		# All executable code and ETL logic.
