@@ -1,0 +1,16 @@
+# ClearVue Ltd. BI Solution - requirements.txt
+
+# Data Cleaning and Transformation (Phase 2 Task: Clean historical CSVs with Pandas)
+pandas>=2.2.0
+
+# Database Connectivity (Phase 2 Task: Load data into MongoDB Atlas)
+pymongo>=4.6.2           # Official Python driver for connecting to MongoDB.
+
+# Real-Time Streaming (Phase 2 Tasks: Build Kafka producer/consumer)
+kafka-python>=2.0.2      # Library for interaction with Apache Kafka.
+
+# Environment and Configuration Management (Recommended for secure credential handling)
+python-dotenv>=1.0.1     # Used to load environment variables from a .env file securely.
+
+# Optional: Numerical Operations (often used implicitly by Pandas)
+numpy>=1.26.4
