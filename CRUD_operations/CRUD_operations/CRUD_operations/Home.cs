@@ -21,21 +21,21 @@ namespace CRUD_operations
         {
             Sales salesForm = new Sales();
             salesForm.Show();
-            this.Hide();
+            //this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Purchases purchasesForm = new Purchases();
             purchasesForm.Show();
-            this.Hide();
+            //this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             payments paymentsForm = new payments();
             paymentsForm.Show();
-            this.Hide();
+            //this.Hide();
         }
     }
 }

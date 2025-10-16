@@ -30,19 +30,20 @@
             this.btnUpdateSale = new System.Windows.Forms.Button();
             this.btnDeleteSale = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtFinDate = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.numLastCostPrice = new System.Windows.Forms.NumericUpDown();
+            this.numTransType = new System.Windows.Forms.NumericUpDown();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtRepId = new System.Windows.Forms.TextBox();
-            this.numTransType = new System.Windows.Forms.NumericUpDown();
-            this.label3 = new System.Windows.Forms.Label();
-            this.numLastCostPrice = new System.Windows.Forms.NumericUpDown();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtFinDate = new System.Windows.Forms.TextBox();
+            this.btnBack = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericQuantity)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericPrice)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numTransType)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numLastCostPrice)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numTransType)).BeginInit();
             this.SuspendLayout();
             // 
             // listBoxSales
@@ -186,6 +187,66 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "New Sale";
             // 
+            // txtFinDate
+            // 
+            this.txtFinDate.Location = new System.Drawing.Point(564, 174);
+            this.txtFinDate.Margin = new System.Windows.Forms.Padding(4);
+            this.txtFinDate.Name = "txtFinDate";
+            this.txtFinDate.Size = new System.Drawing.Size(200, 22);
+            this.txtFinDate.TabIndex = 21;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(432, 177);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(107, 16);
+            this.label4.TabIndex = 20;
+            this.label4.Text = "Financial Period:";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(432, 113);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(99, 16);
+            this.label3.TabIndex = 19;
+            this.label3.Text = "Last Cost Price:";
+            // 
+            // numLastCostPrice
+            // 
+            this.numLastCostPrice.Location = new System.Drawing.Point(564, 113);
+            this.numLastCostPrice.Margin = new System.Windows.Forms.Padding(4);
+            this.numLastCostPrice.Name = "numLastCostPrice";
+            this.numLastCostPrice.Size = new System.Drawing.Size(200, 22);
+            this.numLastCostPrice.TabIndex = 18;
+            // 
+            // numTransType
+            // 
+            this.numTransType.Location = new System.Drawing.Point(163, 189);
+            this.numTransType.Margin = new System.Windows.Forms.Padding(4);
+            this.numTransType.Maximum = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.numTransType.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numTransType.Name = "numTransType";
+            this.numTransType.Size = new System.Drawing.Size(200, 22);
+            this.numTransType.TabIndex = 17;
+            this.numTransType.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -215,71 +276,23 @@
             this.txtRepId.Size = new System.Drawing.Size(200, 22);
             this.txtRepId.TabIndex = 13;
             // 
-            // numTransType
+            // btnBack
             // 
-            this.numTransType.Location = new System.Drawing.Point(163, 189);
-            this.numTransType.Margin = new System.Windows.Forms.Padding(4);
-            this.numTransType.Maximum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
-            this.numTransType.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numTransType.Name = "numTransType";
-            this.numTransType.Size = new System.Drawing.Size(200, 22);
-            this.numTransType.TabIndex = 17;
-            this.numTransType.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(432, 113);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 16);
-            this.label3.TabIndex = 19;
-            this.label3.Text = "Last Cost Price:";
-            // 
-            // numLastCostPrice
-            // 
-            this.numLastCostPrice.Location = new System.Drawing.Point(564, 113);
-            this.numLastCostPrice.Margin = new System.Windows.Forms.Padding(4);
-            this.numLastCostPrice.Name = "numLastCostPrice";
-            this.numLastCostPrice.Size = new System.Drawing.Size(200, 22);
-            this.numLastCostPrice.TabIndex = 18;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(432, 177);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(134, 20);
-            this.label4.TabIndex = 20;
-            this.label4.Text = "Financial Period:";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // txtFinDate
-            // 
-            this.txtFinDate.Location = new System.Drawing.Point(564, 174);
-            this.txtFinDate.Margin = new System.Windows.Forms.Padding(4);
-            this.txtFinDate.Name = "txtFinDate";
-            this.txtFinDate.Size = new System.Drawing.Size(200, 22);
-            this.txtFinDate.TabIndex = 21;
+            this.btnBack.Location = new System.Drawing.Point(885, 29);
+            this.btnBack.Margin = new System.Windows.Forms.Padding(4);
+            this.btnBack.Name = "btnBack";
+            this.btnBack.Size = new System.Drawing.Size(200, 28);
+            this.btnBack.TabIndex = 13;
+            this.btnBack.Text = "Back";
+            this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
             // Sales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1279, 611);
+            this.Controls.Add(this.btnBack);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnDeleteSale);
             this.Controls.Add(this.btnUpdateSale);
@@ -293,8 +306,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.numericPrice)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numTransType)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numLastCostPrice)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numTransType)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -322,5 +335,6 @@
         private System.Windows.Forms.NumericUpDown numLastCostPrice;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtFinDate;
+        private System.Windows.Forms.Button btnBack;
     }
 }
